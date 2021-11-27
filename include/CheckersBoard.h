@@ -6,6 +6,9 @@
 #include "Engine.h"
 #include "Button.h"
 
+/**
+ * Uproszczona struktura przechowująca pozycję punktu.
+ */
 struct PointPosition 
 {
     int x;

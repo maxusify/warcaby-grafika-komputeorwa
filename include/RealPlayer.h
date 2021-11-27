@@ -5,7 +5,7 @@
 
 class CheckersBoard;
 
-/** \class AI
+/** \class RealPlayer
  *  \brief klasa reprezentująca prawdziwego gracza
  */ 
 class RealPlayer : public Player 

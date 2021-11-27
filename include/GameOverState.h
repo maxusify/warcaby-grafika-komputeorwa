@@ -6,8 +6,7 @@
 #include "Texture.h"
 
 /** \class GameOverState
- *  \brief klasa reprezentująca stan końca gry.
- *  \details Dziedziczy po AppState
+ *  \brief klasa reprezentująca stan końca gry. Dziedziczy po AppState.
  */ 
 class GameOverState : public AppState {
 public:

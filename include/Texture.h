@@ -12,7 +12,7 @@
 
 #include "Engine.h"
 
-/** \class AI
+/** \class Texture
  *  \brief klasa reprezentująca teksturę
  */ 
 class Texture

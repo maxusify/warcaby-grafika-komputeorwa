@@ -38,8 +38,7 @@ enum MenuSprites {
 
 
 /** \class MenuState
- *  \brief klasa reprezentująca stan aplikacji w menu głównym
- *  \details Dziedziczy po AppState
+ *  \brief Klasa reprezentująca stan aplikacji w menu głównym. Dziedziczy po AppState.
  */ 
 class MenuState : public AppState
 {

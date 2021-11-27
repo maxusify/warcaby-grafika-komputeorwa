@@ -3,8 +3,8 @@
 
 #include <SDL2/SDL.h>
 
-/** class Point2D
- *  brief klasa reprezentująca punkt na płaszczyźnie 2D
+/** \class Point2D
+ *  \brief klasa reprezentująca punkt na płaszczyźnie 2D
  */ 
 class Point2D
 {
@@ -23,8 +23,8 @@ private:
   int y;
 };
 
-/** class LineSegment
- *  brief klasa reprezentująca odcinek na płaszczyźnie 2D
+/** \class LineSegment
+ *  \brief klasa reprezentująca odcinek na płaszczyźnie 2D
  */ 
 class LineSegment
 {
