@@ -20,9 +20,9 @@ using namespace std;
 class AppStateManager;
 class Texture;
 
-/** class Engine
- *  brief Główna klasa reprezentująca silnik gry.
- *  details Pełni rolę kontrolera wszystkich pozostałych części gry
+/** \class Engine
+ *  \brief Główna klasa reprezentująca silnik gry.
+ *  \details Pełni rolę kontrolera wszystkich pozostałych części gry
  *          oraz obsługuje biblioteki, ich moduły i zarządza nimi.
  */ 
 class Engine 

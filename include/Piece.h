@@ -15,8 +15,8 @@ enum Directions {
 
 using namespace std;
 
-/** class Piece
- *  brief klasa reprezentująca pionek na planszy
+/** \class Piece
+ *  \brief klasa reprezentująca pionek na planszy
  */ 
 class Piece
 {

@@ -12,9 +12,9 @@
 
 class Texture;
 
-/** class Button
- *  brief klasa reprezentująca przycisk
- *  details Reprezentuje obszar ekranu z którym można integrować
+/** \class Button
+ *  \brief klasa reprezentująca przycisk
+ *  \details Reprezentuje obszar ekranu z którym można integrować
  */ 
 class Button 
 {

@@ -41,8 +41,8 @@ private:
   Point2D pB;
 };
 
-/** class PrimitiveRenderer
- *  brief służy do rysowania obiektów na płaszczyźnie 2D
+/** \class PrimitiveRenderer
+ *  \brief służy do rysowania obiektów na płaszczyźnie 2D
  */ 
 class PrimitiveRenderer
 {

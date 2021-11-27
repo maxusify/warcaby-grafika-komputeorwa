@@ -6,9 +6,9 @@
 #include "GameState.h"
 #include "GameOverState.h"
 
-/** class AppStateManager
- *  brief menedżer stanu aplikacji
- *  details Menedżer stanu aplikacji którego zadaniem jest zarządzanie stanem aplikacji.
+/** \class AppStateManager
+ *  \brief menedżer stanu aplikacji
+ *  \details Menedżer stanu aplikacji którego zadaniem jest zarządzanie stanem aplikacji.
  */ 
 class AppStateManager {
 public:

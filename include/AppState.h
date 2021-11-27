@@ -7,8 +7,8 @@ enum States {
     GAME_OVER_STATE
 };
 
-/** class AppState
- *  brief klasa abstrakcyjna reprezentująca stan programu
+/** \class AppState
+ *  \brief klasa abstrakcyjna reprezentująca stan programu
  */ 
 class AppState {
 public:

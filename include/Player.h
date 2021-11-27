@@ -7,8 +7,8 @@
 using namespace std;
 class Button;
 
-/** class Player
- *  brief klasa reprezentująca gracza
+/** \class Player
+ *  \brief klasa reprezentująca gracza
  */ 
 class Player
 {

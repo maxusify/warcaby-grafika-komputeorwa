@@ -44,8 +44,8 @@ class Player;
 class AI;
 class Texture;
 
-/** class GameState
- *  brief Klasa odpowiadająca za stan "W grze". Dziedziczy po AppState.
+/** \class GameState
+ *  \brief Klasa odpowiadająca za stan "W grze". Dziedziczy po AppState.
  */
 class GameState : public AppState {
 public:
