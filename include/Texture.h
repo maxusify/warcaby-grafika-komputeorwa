@@ -12,6 +12,9 @@
 
 #include "Engine.h"
 
+/** class AI
+ *  brief klasa reprezentująca teksturę
+ */ 
 class Texture
 {
 public:

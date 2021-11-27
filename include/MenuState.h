@@ -37,6 +37,10 @@ enum MenuSprites {
 };
 
 
+/** class MenuState
+ *  brief klasa reprezentująca stan aplikacji w menu głównym
+ *  details Dziedziczy po AppState
+ */ 
 class MenuState : public AppState
 {
 public:

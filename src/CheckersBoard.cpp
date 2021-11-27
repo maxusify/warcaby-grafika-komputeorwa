@@ -77,7 +77,7 @@ void CheckersBoard::drawBoard()
     // Kolor planszy (Drugi kolor do pary)
     SDL_SetRenderDrawColor(renderer, 0xFF, 0xFF, 0xFF, 0xFF);
     
-    for (int y=0;y<SCREEN_HEIGHT;y+=BUTTON_HEIGHT)
+    for (int y = 0; y < SCREEN_HEIGHT; y += BUTTON_HEIGHT)
     {
         if (indent) 
         {
@@ -98,7 +98,7 @@ void CheckersBoard::drawBoard()
                 BUTTON_WIDTH, 
                 BUTTON_HEIGHT
             };
-            SDL_RenderFillRect( renderer, &redRect);
+            SDL_RenderFillRect(renderer, &redRect);
         }
     }
 
@@ -123,7 +123,7 @@ void CheckersBoard::drawHighlights()
         SDL_RenderFillRect(renderer, &outLine);
         
         // Kolor podświetlenia możliwych ruchów
-        SDL_SetRenderDrawColor( renderer, 0x20, 0xC4, 0xF4, 0x0F);
+        SDL_SetRenderDrawColor(renderer, 0x20, 0xC4, 0xF4, 0x0F);
         for (int indexOfValidMoves = 0; indexOfValidMoves < validLocations.size(); indexOfValidMoves++) {
             SDL_Rect outLineValid = {
                 validLocations[indexOfValidMoves].x * 80,

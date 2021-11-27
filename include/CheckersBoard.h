@@ -12,6 +12,9 @@ struct PointPosition
     int y;
 };
 
+/** class CheckersBoard
+ *  brief klasa reprezentująca planszę do warcabów
+ */ 
 class CheckersBoard 
 {
 public:

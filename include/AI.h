@@ -4,6 +4,9 @@
 #include "Player.h"
 #include "CheckersBoard.h"
 
+/** class AI
+ *  brief klasa reprezentująca sztucznego przeciwnika
+ */ 
 class AI : public Player
 {
 public:

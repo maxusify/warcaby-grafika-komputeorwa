@@ -5,6 +5,9 @@
 
 class CheckersBoard;
 
+/** class AI
+ *  brief klasa reprezentująca prawdziwego gracza
+ */ 
 class RealPlayer : public Player 
 {
 public:

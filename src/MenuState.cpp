@@ -1,4 +1,5 @@
 #include "../include/MenuState.h"
+#include "../include/GraphicsUtils.h"
 
 /**
  * Konstruktor klasy MenuState
@@ -120,6 +121,41 @@ void MenuState::stateRender()
         // Renderowanie przycisku
         boardButtons[index].render(currentSprite);
     }
+
+    PrimitiveRenderer pr = PrimitiveRenderer();
+
+    Point2D test[] = {
+        Point2D(15, 15),
+        Point2D(17, 17),
+        Point2D(19, 19)
+    };
+
+    Point2D testA = Point2D(10, 10);
+    Point2D testB = Point2D(100, 500);
+
+    Point2D rect[] = {
+        Point2D(250, 25),
+        Point2D(350, 55)
+    };
+
+    int triangleXs[] = {500, 575, 600};
+    int triangleYs[] = {500, 640, 500};
+    
+    SDL_SetRenderDrawColor(renderer, 0x00, 0x00, 0xFF, 0xFF);
+    pr.drawPoint(test[0]);
+    pr.drawPoint(test[1]);
+    pr.drawPoint(test[2]);
+
+    SDL_SetRenderDrawColor(renderer, 0xFF, 0x00, 0x00, 0xFF);
+    pr.drawLine(testA, testB);
+
+    SDL_SetRenderDrawColor(renderer, 0x00, 0xFF, 0x00, 0xFF);
+    pr.drawCircle(550, 250, 50);
+
+    pr.drawRectangle(rect[0], rect[1], 0xFF, 0x00, 0x00);
+
+    SDL_SetRenderDrawColor(renderer, 0x00, 0x00, 0xFF, 0xFF);
+    pr.drawPolygon(triangleXs, triangleYs, 3);
 }
 
 /**
