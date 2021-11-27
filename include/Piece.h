@@ -6,6 +6,9 @@
 #include <stdlib.h>
 #include <time.h>
 
+/** \enum Directions
+ *  Typ wyliczeniowy wyznaczający kierunki w których można poruszać pionkiem.
+ */
 enum Directions {
     LEFT,
     RIGHT,

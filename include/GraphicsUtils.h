@@ -1,7 +1,13 @@
 #ifndef PRIMITIVERENDERER_H
 #define PRIMITIVERENDERER_H
 
-#include <SDL2/SDL.h>
+#ifdef _WIN32
+    #include <SDL.h>
+#endif
+
+#ifdef __linux
+    #include <SDL2/SDL.h>
+#endif
 
 /** \class Point2D
  *  \brief klasa reprezentująca punkt na płaszczyźnie 2D

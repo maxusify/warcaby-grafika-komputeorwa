@@ -23,8 +23,8 @@
 
 class Button;
 
-/**
- * Typ wyliczeniowy wydzielający tekstury menu
+/*! \enum MenuSprites 
+ *  Typ wyliczeniowy wydzielający używane tekstury w menu głównym
  */
 enum MenuSprites {
     TWO_PLAYERS,
